@@ -3,6 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivingCompetition", "DivingCompetition\DivingCompetition.csproj", "{0EC8A4B5-6A9F-40DF-8BA5-F82F18174B9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivingCompetition.Domain", "DivingCompetition.Domain\DivingCompetition.Domain.csproj", "{388FE207-C6FD-43B3-85BE-0C0444FCDCFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Domain", "01 - Domain", "{0C126E76-94E3-461A-B9FE-3BFBADE7336C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Application", "02 - Application", "{0C23849C-3848-430E-974F-21B6B39C2D0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Web", "03 - Web", "{AABAD3C6-E903-4659-8ED1-B0428D8BAE2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivingCompetition.Domain.Impl", "DivingCompetition.Domain.Impl\DivingCompetition.Domain.Impl.csproj", "{1DEF8D19-E556-4423-96CC-835E2FCFA74F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,8 +23,21 @@ Global
 		{0EC8A4B5-6A9F-40DF-8BA5-F82F18174B9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EC8A4B5-6A9F-40DF-8BA5-F82F18174B9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EC8A4B5-6A9F-40DF-8BA5-F82F18174B9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{388FE207-C6FD-43B3-85BE-0C0444FCDCFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{388FE207-C6FD-43B3-85BE-0C0444FCDCFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{388FE207-C6FD-43B3-85BE-0C0444FCDCFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{388FE207-C6FD-43B3-85BE-0C0444FCDCFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DEF8D19-E556-4423-96CC-835E2FCFA74F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DEF8D19-E556-4423-96CC-835E2FCFA74F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DEF8D19-E556-4423-96CC-835E2FCFA74F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DEF8D19-E556-4423-96CC-835E2FCFA74F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{388FE207-C6FD-43B3-85BE-0C0444FCDCFD} = {0C126E76-94E3-461A-B9FE-3BFBADE7336C}
+		{1DEF8D19-E556-4423-96CC-835E2FCFA74F} = {0C126E76-94E3-461A-B9FE-3BFBADE7336C}
+		{0EC8A4B5-6A9F-40DF-8BA5-F82F18174B9E} = {AABAD3C6-E903-4659-8ED1-B0428D8BAE2F}
 	EndGlobalSection
 EndGlobal
