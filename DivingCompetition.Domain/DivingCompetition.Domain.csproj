@@ -31,10 +31,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Iesi.Collections">
-      <HintPath>C:\Users\energy\Desktop\NHibernate-3.3.1.GA-bin\Required_Bins\Iesi.Collections.dll</HintPath>
+      <HintPath>..\Libraries\Iesi.Collections.dll</HintPath>
     </Reference>
     <Reference Include="NHibernate">
-      <HintPath>C:\Users\energy\Desktop\NHibernate-3.3.1.GA-bin\Required_Bins\NHibernate.dll</HintPath>
+      <HintPath>..\Libraries\NHibernate.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -45,7 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base\Entity.cs" />
+    <Compile Include="Base\IEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\IRepository.cs" />
+    <Compile Include="Repository\Repository.cs" />
+    <Compile Include="TestEntity\ITestEntityRepository.cs" />
     <Compile Include="TestEntity\TestEntity.cs" />
   </ItemGroup>
   <ItemGroup />

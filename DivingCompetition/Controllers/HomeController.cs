@@ -4,7 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using DivingCompetition.Domain.Impl;
 using DivingCompetition.Models;
+using NHibernate;
 using NHibernate.Criterion;
 
 namespace DivingCompetition.Controllers
@@ -13,12 +15,12 @@ namespace DivingCompetition.Controllers
     {
         //
         // GET: /Home/
-
         public ActionResult Index()
         {
+            
             var testEntity = NhSession.Current.CreateCriteria<TestEntity>()
                 .List<TestEntity>();
-
+             
             return View("List", testEntity);
         }
 
@@ -67,7 +69,7 @@ namespace DivingCompetition.Controllers
 
         public ActionResult Edit(Guid id)
         {
-            var testEntity = NhSession.Current.CreateCriteria<TestEntity>()
+            var testEntity = NhSession.SessionFactory.GetCurrentSession().CreateCriteria<TestEntity>()
                 .Add(Expression.Eq("Id", id))
                 .UniqueResult<TestEntity>();
 
@@ -82,7 +84,10 @@ namespace DivingCompetition.Controllers
         {
             try
             {
-                NhSession.Current.Save(testEntity);
+                ITestEntityRepository testEntityRepository
+                    = new TestEntityRepository(
+                        NhSession.SessionFactory);
+                testEntityRepository.AddOrUpdate(testEntity);
                 NhSession.Current.Flush();
                 return RedirectToAction("Index");
             }

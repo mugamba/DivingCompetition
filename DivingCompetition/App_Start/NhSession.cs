@@ -3,12 +3,16 @@ using NHibernate.Cfg;
 
 namespace DivingCompetition
 {
-    public  class NhSession
+    public class NhSession
     {
         public static ISessionFactory SessionFactory { get; private set; }
+
         public static ISession Current
         {
-            get { return SessionFactory.GetCurrentSession(); }
+            get
+            {
+                return SessionFactory.GetCurrentSession();
+            }
         }
 
         internal static void Init()

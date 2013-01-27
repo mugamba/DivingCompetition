@@ -5,28 +5,28 @@ namespace DivingCompetition.Models
 {
     public class TestEntityModel
     {
-        public TestEntity _entity;
+        public TestEntity Entity;
         public TestEntityModel(TestEntity entity)
         {
-            _entity = entity;
+            Entity = entity;
         }
 
         public Guid Id
         {
-            get { return _entity.Id; }
-            set { _entity.Id = value; }
+            get { return Entity.Id; }
+            set { Entity.Id = value; }
         }
 
         public String Sifra
         {
-            get { return _entity.Sifra; }
-            set { _entity.Sifra = value; }
+            get { return Entity.Sifra; }
+            set { Entity.Sifra = value; }
         }
 
         public String Naziv
         {
-            get { return _entity.Sifra; }
-            set { _entity.Naziv = value; }
+            get { return Entity.Sifra; }
+            set { Entity.Naziv = value; }
         }
     }
 }
