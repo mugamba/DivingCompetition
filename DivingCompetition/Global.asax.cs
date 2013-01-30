@@ -22,5 +22,6 @@ namespace DivingCompetition
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             NhSession.Init();
         }
+        
     }
 }

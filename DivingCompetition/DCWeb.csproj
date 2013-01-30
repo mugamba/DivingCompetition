@@ -144,13 +144,13 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DivingCompetition.Domain.Impl\DivingCompetition.Domain.Impl.csproj">
+    <ProjectReference Include="..\DivingCompetition.Domain.Impl\DC.Domain.Impl.csproj">
       <Project>{1def8d19-e556-4423-96cc-835e2fcfa74f}</Project>
-      <Name>DivingCompetition.Domain.Impl</Name>
+      <Name>DC.Domain.Impl</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DivingCompetition.Domain\DivingCompetition.Domain.csproj">
+    <ProjectReference Include="..\DivingCompetition.Domain\DC.Domain.csproj">
       <Project>{388fe207-c6fd-43b3-85be-0c0444fcdcfd}</Project>
-      <Name>DivingCompetition.Domain</Name>
+      <Name>DC.Domain</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

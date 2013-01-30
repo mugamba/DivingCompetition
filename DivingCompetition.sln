@@ -1,17 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivingCompetition", "DivingCompetition\DivingCompetition.csproj", "{0EC8A4B5-6A9F-40DF-8BA5-F82F18174B9E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCWeb", "DivingCompetition\DCWeb.csproj", "{0EC8A4B5-6A9F-40DF-8BA5-F82F18174B9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivingCompetition.Domain", "DivingCompetition.Domain\DivingCompetition.Domain.csproj", "{388FE207-C6FD-43B3-85BE-0C0444FCDCFD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DC.Domain", "DivingCompetition.Domain\DC.Domain.csproj", "{388FE207-C6FD-43B3-85BE-0C0444FCDCFD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Domain", "01 - Domain", "{0C126E76-94E3-461A-B9FE-3BFBADE7336C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Domain", "02 - Domain", "{0C126E76-94E3-461A-B9FE-3BFBADE7336C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Application", "02 - Application", "{0C23849C-3848-430E-974F-21B6B39C2D0E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Application", "03 - Application", "{0C23849C-3848-430E-974F-21B6B39C2D0E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Web", "03 - Web", "{AABAD3C6-E903-4659-8ED1-B0428D8BAE2F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Web", "04 - Web", "{AABAD3C6-E903-4659-8ED1-B0428D8BAE2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivingCompetition.Domain.Impl", "DivingCompetition.Domain.Impl\DivingCompetition.Domain.Impl.csproj", "{1DEF8D19-E556-4423-96CC-835E2FCFA74F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DC.Domain.Impl", "DivingCompetition.Domain.Impl\DC.Domain.Impl.csproj", "{1DEF8D19-E556-4423-96CC-835E2FCFA74F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DC.Application", "DC.Application\DC.Application.csproj", "{B96E92BA-35E8-45AC-B97B-889F7709A5CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - InfraStructure", "01 - InfraStructure", "{DE582BDB-B19A-442B-903E-D91CEEB29FE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Core", "Common.Core\Common.Core.csproj", "{129A6DA0-FB9C-466B-8CDB-6345A62304A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +37,14 @@ Global
 		{1DEF8D19-E556-4423-96CC-835E2FCFA74F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DEF8D19-E556-4423-96CC-835E2FCFA74F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DEF8D19-E556-4423-96CC-835E2FCFA74F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B96E92BA-35E8-45AC-B97B-889F7709A5CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B96E92BA-35E8-45AC-B97B-889F7709A5CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B96E92BA-35E8-45AC-B97B-889F7709A5CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B96E92BA-35E8-45AC-B97B-889F7709A5CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{129A6DA0-FB9C-466B-8CDB-6345A62304A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{129A6DA0-FB9C-466B-8CDB-6345A62304A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{129A6DA0-FB9C-466B-8CDB-6345A62304A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{129A6DA0-FB9C-466B-8CDB-6345A62304A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,5 +53,7 @@ Global
 		{0EC8A4B5-6A9F-40DF-8BA5-F82F18174B9E} = {AABAD3C6-E903-4659-8ED1-B0428D8BAE2F}
 		{388FE207-C6FD-43B3-85BE-0C0444FCDCFD} = {0C126E76-94E3-461A-B9FE-3BFBADE7336C}
 		{1DEF8D19-E556-4423-96CC-835E2FCFA74F} = {0C126E76-94E3-461A-B9FE-3BFBADE7336C}
+		{B96E92BA-35E8-45AC-B97B-889F7709A5CB} = {0C23849C-3848-430E-974F-21B6B39C2D0E}
+		{129A6DA0-FB9C-466B-8CDB-6345A62304A1} = {DE582BDB-B19A-442B-903E-D91CEEB29FE5}
 	EndGlobalSection
 EndGlobal
