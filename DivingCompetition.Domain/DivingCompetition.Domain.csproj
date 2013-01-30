@@ -53,7 +53,10 @@
     <Compile Include="TestEntity\ITestEntityRepository.cs" />
     <Compile Include="TestEntity\TestEntity.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Lib\Iesi.Collections.dll" />
+    <Content Include="Lib\NHibernate.dll" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
