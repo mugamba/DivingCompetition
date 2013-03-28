@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+				   assembly="DivingCompetition.Domain"
+				   namespace="DivingCompetition.Domain">
+  
+  <class name="Drzava">
+    <id name="Id" type="Int32"></id>
+    <property name="Sifra"/>
+    <property name="Naziv"/>
+  </class>
+</hibernate-mapping>

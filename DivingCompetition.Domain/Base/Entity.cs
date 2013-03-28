@@ -4,6 +4,6 @@ namespace DivingCompetition.Domain
 {
     public class Entity : IEntity
     {
-        public virtual Guid Id { get; set; }
+        public virtual Int32 Id { get; set; }
     }
 }
