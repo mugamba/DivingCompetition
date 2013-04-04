@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivingCompetition.Web", "DivingCompetition.Web\DivingCompetition.Web.csproj", "{334F290F-1F95-4245-BE57-23F89D014FF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivingCompetition.Data", "DivingCompetition.Data\DivingCompetition.Data.csproj", "{4C3AD974-E09E-4DEF-8C70-271D50FB6EF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivingCompetition.Model", "DivingCompetition.Model\DivingCompetition.Model.csproj", "{62E54E85-E126-4973-BC4D-00AEB9E07256}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{334F290F-1F95-4245-BE57-23F89D014FF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{334F290F-1F95-4245-BE57-23F89D014FF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{334F290F-1F95-4245-BE57-23F89D014FF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{334F290F-1F95-4245-BE57-23F89D014FF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C3AD974-E09E-4DEF-8C70-271D50FB6EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C3AD974-E09E-4DEF-8C70-271D50FB6EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C3AD974-E09E-4DEF-8C70-271D50FB6EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C3AD974-E09E-4DEF-8C70-271D50FB6EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62E54E85-E126-4973-BC4D-00AEB9E07256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62E54E85-E126-4973-BC4D-00AEB9E07256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62E54E85-E126-4973-BC4D-00AEB9E07256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62E54E85-E126-4973-BC4D-00AEB9E07256}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
