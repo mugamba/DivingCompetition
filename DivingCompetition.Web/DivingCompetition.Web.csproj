@@ -235,6 +235,7 @@
     <None Include="Scripts\lib\amplify-vsdoc.js" />
     <Content Include="main.css" />
     <Content Include="normalize.css" />
+    <Content Include="Scripts\app\dummy.txt" />
     <Content Include="Scripts\lib\amplify.js" />
     <Content Include="Scripts\lib\amplify.min.js" />
     <Content Include="Scripts\lib\GPL-LICENSE.txt" />
@@ -284,7 +285,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Scripts\app\" />
     <Folder Include="Views\" />
   </ItemGroup>
   <ItemGroup>
