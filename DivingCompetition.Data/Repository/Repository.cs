@@ -3,9 +3,9 @@ using System.Linq;
 using NHibernate;
 using System.Collections.Generic;
 using NHibernate.Linq;
-using DivingCompetition.Model;
+using DC.Model;
 
-namespace DivingCompetition.Data
+namespace DC.Data
 {
     /// <summary>
     /// Generic entity repository implementation.

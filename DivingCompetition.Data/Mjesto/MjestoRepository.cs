@@ -1,7 +1,7 @@
-﻿using DivingCompetition.Model;
+﻿using DC.Model;
 using NHibernate;
 
-namespace DivingCompetition.Data
+namespace DC.Data
 {
 
     public class MjestoRepository : Repository<Mjesto>, IMjestoRepository

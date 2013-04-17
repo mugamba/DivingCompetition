@@ -1,10 +1,10 @@
-﻿using DivingCompetition.Model;
+﻿using DC.Model;
 using NHibernate;
 
-namespace DivingCompetition.Data
+namespace DC.Data
 {
 
-    public class DrzavaRepository : Data.Repository<Drzava>, IDrzavaRepository
+    public class DrzavaRepository : Repository<Drzava>, IDrzavaRepository
     {
         public DrzavaRepository(ISessionFactory sessionFactory)
             : base(sessionFactory){}

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DivingCompetition.Model
+namespace DC.Model
 {
     public class Drzava:Entity
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace DivingCompetition.Model
+namespace DC.Model
 {
     public interface IRepository<TEntity> where TEntity : IEntity
     {
